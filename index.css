@@ -1,9 +1,12 @@
 ul {
+    
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
   
   li {
@@ -17,7 +20,52 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
-  li a:hover {
-    background-color: #111;
+
+  a {
+  color: white;
+
   }
+
+body {
+  background-color: #E6E6FA;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+
+
+}
+
+.TextFooter {
+
+text-align: center;
+color: red;
+
+}
+
+footer {
+  /* color: red;
+   margin-top: auto; 
+  text-align: center;
+  padding: 12px; */
+  /* background-color: #0033CC; */
+/* 
+  background-color: #333; */
+
+  /* color: white; */
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #333;
+  height: auto;
+  width: 100vw;
+  padding-top: 12px;
+  color: #fff;
+
+
+
+
+
+}
