@@ -9,6 +9,12 @@ ul {
     padding-bottom: 12px;
   }
   
+img {
+
+  border-radius: 50%;
+}
+
+
   li {
     float: left;
   }
@@ -26,7 +32,13 @@ ul {
 
   }
 
-body {
+  .MainTitle {
+    float: right;    
+    margin: 0 300px 0 0;
+  
+  }
+
+/* body {
   background-color: #E6E6FA;
   min-height: 100vh;
   display: flex;
@@ -34,7 +46,11 @@ body {
   font-family: sans-serif;
 
 
-}
+} */
+
+
+
+
 
 .TextFooter {
 
